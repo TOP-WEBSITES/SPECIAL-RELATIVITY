@@ -43,19 +43,19 @@ function expandButton() {
 
   .img-container {
     position: absolute;
-    transform: translateX(32px) scale(1.2);
+    transform: translateX(36px) scale(1.2);
     transform-origin: left;
     transition: transform 400ms;
 
     &.hover {
-      transform: translateX(32px) scale(1.3);
+      transform: translateX(36px) scale(1.3);
     }
   }
 
   img {
     height: 100vh;
     transform-origin: left;
-    animation: undulate 1.2s infinite;
+    animation: undulate 1s infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
   }
@@ -75,7 +75,7 @@ function expandButton() {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  animation: backandforth 1.2s infinite;
+  animation: backandforth 1s infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
 
@@ -90,7 +90,7 @@ function expandButton() {
   }
 
   to {
-    transform: translate(18%, -50%);
+    transform: translate(12%, -50%);
   }
 }
 
