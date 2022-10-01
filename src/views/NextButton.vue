@@ -42,14 +42,13 @@ function expandButton() {
   position: relative;
 
   .img-container {
-    // height: 100vh;
     position: absolute;
-    transform: translateX(40px) scale(1.2);
+    transform: translateX(32px) scale(1.2);
     transform-origin: left;
     transition: transform 400ms;
 
     &.hover {
-      transform: translateX(40px) scale(1.3);
+      transform: translateX(32px) scale(1.3);
     }
   }
 
@@ -68,7 +67,7 @@ function expandButton() {
   }
 
   to {
-    transform: scale(1.4);
+    transform: scale(1.38);
   }
 }
 
@@ -105,7 +104,7 @@ function expandButton() {
   display: grid;
   place-items: center;
 
-  transition: transform 200ms;
+  transition: transform 400ms;
 
   &:hover {
     transform: scale(1.1);
@@ -113,7 +112,7 @@ function expandButton() {
 }
 
 .explode .next-button {
-  transform: scale(40);
+  transform: scale(50);
 }
 
 .material-symbols-outlined {
