@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang='ts' setup>
 import { ref } from 'vue';
 
 const open = ref(false);
@@ -30,7 +30,7 @@ const open = ref(false);
   width: 80px;
   height: 80px;
   border-radius: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 
   transform-origin: center;
   transition: transform 400ms;

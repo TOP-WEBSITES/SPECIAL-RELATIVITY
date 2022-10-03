@@ -2,7 +2,7 @@
   <router-view />
 </template>
 
-<script>
+<script lang='ts'>
 </script>
 
 <style>
@@ -50,6 +50,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 #app {
@@ -57,5 +64,12 @@
   background-color: #232622;
   font-family: Avenir;
   color: white;
+}
+
+.chapter-container {
+  padding-top: 170px;
+  padding-right: 100px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 </style>

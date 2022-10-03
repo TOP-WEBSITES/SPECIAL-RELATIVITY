@@ -11,14 +11,14 @@
   </div>
 </template>
 
-<script setup>
+<script lang='ts' setup>
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
 
-const curve = ref(null);
-const button = ref(null);
+const curve = ref<HTMLDivElement>(null);
+const button = ref<HTMLDivElement>(null);
 
 function mouseEnter() {
   curve.value.classList.add('hover');
@@ -30,7 +30,7 @@ function mouseLeave() {
 
 function expandButton() {
   button.value.classList.add('explode');
-  setTimeout(() => router.push('/article'), 450);
+  setTimeout(() => router.push('/article?chapter=introduction'), 450);
 }
 </script>
 

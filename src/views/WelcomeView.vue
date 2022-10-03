@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang='ts' setup>
 import MenuButton from '@/components/MenuButton.vue';
 import NextButton from './NextButton.vue';
 
@@ -30,7 +30,7 @@ import NextButton from './NextButton.vue';
 .column {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 
   margin-left: 80px;
 
