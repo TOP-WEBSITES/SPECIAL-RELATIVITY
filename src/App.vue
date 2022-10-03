@@ -63,7 +63,10 @@
   height: 100vh;
   background-color: #232622;
   font-family: Avenir;
-  color: white;
+}
+
+.spacer {
+  flex-grow: 1;
 }
 
 .chapter-container {

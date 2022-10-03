@@ -7,13 +7,13 @@
       <span>Dave, Jia Jie, Mayukh</span>
     </div>
     <div class="spacer"></div>
-    <NextButton />
+    <StartReadingButton />
   </div>
 </template>
 
 <script lang='ts' setup>
 import MenuButton from '@/components/MenuButton.vue';
-import NextButton from './NextButton.vue';
+import StartReadingButton from '@/components/StartReadingButton.vue';
 
 </script>
 
@@ -38,6 +38,7 @@ import NextButton from './NextButton.vue';
     font-size: 24px;
     font-weight: 300;
     margin-top: 40px;
+    color: white;
   }
 }
 
@@ -50,9 +51,5 @@ h1 {
   &.bigger {
     font-size: 96px;
   }
-}
-
-.spacer {
-  flex-grow: 1;
 }
 </style>

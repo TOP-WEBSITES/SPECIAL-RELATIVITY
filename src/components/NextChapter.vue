@@ -56,11 +56,11 @@ function goToNext() {
   transition: transform 200ms, background-color 200ms;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   &:active {
-    transform: scale(1.05);
+    transform: scale(1);
     background-color: rgba(#2D3D27, 0.4);
   }
 
@@ -85,11 +85,11 @@ function goToNext() {
   transition: transform 200ms, background-color 200ms;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   &:active {
-    transform: scale(1.05);
+    transform: scale(1);
     background-color: #21271f;
   }
 

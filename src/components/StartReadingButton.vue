@@ -114,8 +114,4 @@ function expandButton() {
 .explode .next-button {
   transform: scale(50);
 }
-
-.material-symbols-outlined {
-  color: black;
-}
 </style>

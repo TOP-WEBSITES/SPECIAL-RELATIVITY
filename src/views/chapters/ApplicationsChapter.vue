@@ -107,7 +107,6 @@ h1 {
 
 p {
   width: 50vw;
-  color: black;
   font-size: 18px;
   margin-bottom: 24px;
 }
