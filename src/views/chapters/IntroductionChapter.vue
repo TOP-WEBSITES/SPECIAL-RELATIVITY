@@ -1,6 +1,7 @@
 <template>
   <div class='chapter-container'>
     <h1>Introduction</h1>
+    <h1 style="font-size: 32px;">Mayukh Das</h1>
 <p>Physics is perhaps one of the most varied of all scientific disciplines, with a wide variety of topics that lie beneath the surface. One of the most prominent of topics (and perhaps interesting) is the theory of relativity.</p>
 
 <p>One of the most poignant of reasons as to why relativity is so special is the fact that the theory is developed only from two postulates.</p>
@@ -89,13 +90,13 @@
 </p>
 <p>Now we substitute everything back into the initial solution,</p>
 <p>
-<vue-latex :expression="'x = \\frac{x\' + vt\'}{\\sqrt{1 - \\frac{v^2}{c^2}}}, \\quad t = \\frac{t\' + \\tfrac{v x}{c^2}}{\\sqrt{1 - \\frac{v^2}{c^2}}}'" display-mode/>
+<vue-latex :expression="'x = \\frac{x\' + vt\'}{\\sqrt{1 - \\frac{v^2}{c^2}}}, \\quad t = \\frac{t\' + \\tfrac{v x\'}{c^2}}{\\sqrt{1 - \\frac{v^2}{c^2}}}'" display-mode/>
 </p>
 <p>
     We find the term <vue-latex :expression="'\\left(1 - \\frac{v^2}{c^2}\\right)^{-0.5}'"/> being repeated quite often, so let us substitute with the constant <vue-latex :expression="'\\gamma_v'"/>.
 </p>
 <p>
-<vue-latex :expression="'x = \\gamma_v (x\' + vt\'), \\quad t = \\gamma_v \\left(t\' + \\tfrac{v x}{c^2}\\right)'" display-mode/>
+<vue-latex :expression="'x = \\gamma_v (x\' + vt\'), \\quad t = \\gamma_v \\left(t\' + \\tfrac{v x\'}{c^2}\\right)'" display-mode/>
 </p>
 <p>We have thus proved the Lorentz Transformations. QED</p>
 <h2 id="physical-signifance-of-the-lorentz-transformations">Physical Signifance of the Lorentz Transformations</h2><br>
@@ -150,13 +151,20 @@ h1 {
   font-size: 64px;
   font-weight: 400;
   color: #2D3D27;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 p {
   width: 50vw;
   font-size: 18px;
   margin-bottom: 24px;
+}
+
+h1 + p:first-letter {
+  font-family: Porto;
+  font-size: 32px;
+  font-weight: 400;
+  color: #2D3D27;
 }
 
 ol {

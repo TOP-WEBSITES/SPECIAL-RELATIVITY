@@ -1,6 +1,7 @@
 <template>
   <div class='chapter-container'>
     <h1>Applications</h1>
+    <h1 style="font-size: 32px;">Dave Tan</h1>
     <p>Turpis mi consectetur a nunc lacus pellentesque aliquet. Et feugiat amet auctor amet ac. Mi integer duis risus
       ut nunc nunc id fringilla. Vitae elit lacus, faucibus egestas venenatis. Est vitae ipsum eget cursus nulla
       sagittis. Auctor at risus lectus senectus risus enim. Lectus adipiscing nibh eros, dapibus et leo enim massa.
@@ -88,6 +89,8 @@
       magni id sequi, doloremque veniam dolorum ea? Porro ratione iure obcaecati, tempore optio nihil maiores
       voluptatibus autem dicta saepe, suscipit dolorem ut temporibus. Fuga!
     </p>
+
+<p align="right"> (XXX words) </p>
     <NextChapter prev-chapter="introduction" next-chapter="paradoxes" />
   </div>
 </template>
@@ -102,12 +105,26 @@ h1 {
   font-size: 64px;
   font-weight: 400;
   color: #2D3D27;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 p {
   width: 50vw;
   font-size: 18px;
   margin-bottom: 24px;
+}
+
+h1 + p:first-letter {
+  font-family: Porto;
+  font-size: 32px;
+  font-weight: 400;
+  color: #2D3D27;
+}
+
+ol {
+  width: 50vw;
+  font-size: 18px;
+  margin-bottom: 24px;
+  list-style-position: inside;
 }
 </style>
