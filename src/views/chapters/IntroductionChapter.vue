@@ -1,93 +1,140 @@
 <template>
   <div class='chapter-container'>
     <h1>Introduction</h1>
-    <p>Turpis mi consectetur a nunc lacus pellentesque aliquet. Et feugiat amet auctor amet ac. Mi integer duis risus
-      ut nunc nunc id fringilla. Vitae elit lacus, faucibus egestas venenatis. Est vitae ipsum eget cursus nulla
-      sagittis. Auctor at risus lectus senectus risus enim. Lectus adipiscing nibh eros, dapibus et leo enim massa.
-      Mauris nunc massa adipiscing suspendisse semper eget sed donec. Elementum morbi enim diam dolor, sit sapien.
-      Fringilla massa, nunc scelerisque turpis.
-    </p>
-    <p>
-      Ac ante justo, vitae non arcu. At pretium, mattis porta aliquet malesuada aliquam etiam dignissim. Cras enim
-      auctor sit faucibus id consectetur. Dictum sem sit dignissim vitae. Nulla ornare consequat arcu lacus mauris
-      quis ornare. Ut quam nisi, amet faucibus cursus blandit placerat scelerisque. Mauris sed in pharetra pretium.
-      Sit at sed non ac tellus ligula egestas quam mattis. Morbi sociis mi tincidunt feugiat pharetra facilisis
-      habitant. Eget dictumst est lorem eu neque elit pellentesque mi quam. Erat ut cursus vitae eget. Purus nisi
-      rhoncus, tortor urna tortor. Nibh sed eu, sagittis dapibus diam tristique fermentum adipiscing. A eu tristique
-      et, aliquam tempus, pharetra, scelerisque massa. Sapien, etiam mattis sem nisl aliquet ipsum molestie purus.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consequatur perferendis ratione illo dolorem
-      ducimus mollitia commodi, enim maiores temporibus necessitatibus a, at esse repudiandae architecto aliquid
-      voluptatum quos. Sequi, perferendis! Neque recusandae, corrupti fugiat quaerat saepe nemo quo consequatur in
-      doloribus blanditiis. Cupiditate suscipit labore quaerat, quis consequuntur eum velit nostrum fuga blanditiis?
-      Aliquam harum illo corporis unde dignissimos, laudantium doloremque nisi reiciendis officiis rerum odit. Quod
-      accusamus natus dolor vitae commodi ipsum, nostrum architecto temporibus a distinctio? Aliquam laboriosam
-      similique nobis accusantium unde aperiam in nostrum sint repudiandae qui tempora aliquid magni odio voluptas
-      maiores, debitis odit placeat autem, nihil dolor sequi saepe sed voluptatem. Libero sit autem quo alias odio
-      consectetur aspernatur provident perferendis, eum atque excepturi similique impedit non ratione veniam sequi,
-      amet quod officia eaque eligendi sed cupiditate quasi maiores accusantium. Nobis corrupti beatae eligendi. Quae
-      nostrum magnam cumque molestias officia numquam iure sequi. Qui repellendus iusto unde voluptatum. Delectus
-      dolorem autem, fugiat obcaecati deserunt eveniet consequatur dolore, ipsam, magnam incidunt praesentium! Magni
-      ipsam earum nesciunt inventore autem illum, amet, excepturi tenetur perferendis aliquid aperiam corporis
-      pariatur labore assumenda qui, aut ullam cupiditate facilis numquam est. Officiis hic sequi ducimus aut
-      voluptate quis facilis consequuntur! Itaque quae esse atque rem commodi dolor nobis aperiam enim suscipit quod
-      minima, sit ea. Mollitia harum exercitationem id quas quibusdam eius dignissimos rerum inventore laboriosam
-      dolores, ut optio numquam nulla veritatis labore aliquam facere eaque suscipit molestias! Dolorum fugiat iure
-      numquam! Assumenda, dolore nobis exercitationem quas fugit eum quibusdam hic neque nesciunt, optio unde nostrum
-      porro quisquam impedit est quia voluptate? Atque voluptatem repellat veritatis hic itaque, in maxime iusto
-      tempora minima numquam nostrum laudantium animi nisi aliquam nam temporibus accusamus laboriosam accusantium
-      doloremque quibusdam dolore aliquid! Harum atque est adipisci laudantium! Praesentium, sapiente delectus!
-      Debitis ratione provident architecto excepturi ipsa aperiam illo sequi aliquam. Temporibus doloremque illum
-      doloribus nam nihil explicabo rerum reprehenderit ullam distinctio aliquid quas, corrupti id qui ipsa totam
-      obcaecati aut beatae at ducimus recusandae consequuntur? Vero similique totam repellat, quo quae iusto quidem
-      sunt architecto distinctio rerum commodi dolor laboriosam vel molestias itaque accusantium perferendis. Hic
-      soluta, quibusdam natus praesentium voluptate ut minus cum laudantium dolores vero corrupti eligendi deleniti
-      nulla autem facere assumenda nihil consectetur ad? Quia repudiandae vero debitis porro modi sequi non tempora
-      laudantium placeat iure doloremque deserunt saepe, dolore dignissimos aperiam, repellendus sit vel? Amet
-      expedita, nihil fugiat suscipit sed illo nulla, ea quas laborum nostrum debitis quisquam dolor non saepe!
-      Incidunt aliquid quia nam reiciendis, itaque libero eum vitae cumque nisi distinctio nulla rem error iure et
-      dicta non magnam maiores sint accusantium quas molestias? Ipsam consequatur ipsum maiores sapiente reiciendis
-      eveniet. Enim, temporibus! Vitae, veritatis fugit ad itaque sed non a quam suscipit excepturi consequatur
-      facilis ipsam, incidunt fuga impedit repudiandae molestias accusantium eaque quos. Provident facere eaque
-      accusantium quod labore ab laboriosam dolorum ullam adipisci sint! Incidunt voluptatem consequatur dolores
-      quaerat consectetur laborum ratione. Delectus veniam quos facilis maiores ab recusandae optio harum laudantium
-      facere iste et nostrum ducimus, atque ea eaque tempora dolorem, blanditiis omnis eos beatae aliquid debitis eum,
-      laborum neque. Eius iste odio laborum ratione distinctio dolor explicabo at vitae adipisci tempora, aperiam
-      aliquid soluta dolorem eligendi! Praesentium deleniti aspernatur itaque expedita nihil. Beatae officiis vero qui
-      ad ea! Voluptatem, aliquam rem. Natus error dolores dignissimos ab doloribus eum non iste ullam, inventore qui
-      dolorem assumenda dolore libero neque eaque iusto ratione officia in reiciendis animi. Recusandae quas maxime
-      neque nesciunt accusamus iusto placeat, doloremque tenetur tempore? Nam sit reiciendis iste! Consectetur magni
-      necessitatibus maxime doloremque vel fugit! Amet harum quae dignissimos molestiae reiciendis consectetur beatae
-      excepturi nihil quos veritatis, unde fugiat quo minus placeat tenetur repellat accusamus officiis veniam,
-      voluptatem deleniti at impedit, iure iusto? Nesciunt necessitatibus alias harum enim, repellendus odit
-      laudantium ipsa fuga, delectus mollitia dolorum a soluta temporibus ipsum rerum. Veritatis nemo quas nesciunt
-      ipsam error molestiae nisi cum consequatur veniam praesentium, accusamus voluptas ea debitis officiis harum
-      tempore at nostrum nobis ullam assumenda quidem voluptatum corporis? Provident odit culpa praesentium impedit
-      consequatur, ipsa tempora ea assumenda reiciendis perspiciatis! Corrupti nulla dicta voluptatibus impedit sed
-      nemo officiis, repudiandae quo similique, at corporis suscipit quidem, nostrum quasi assumenda facere ad
-      ducimus? Eaque illo dolores fugit non nam nostrum possimus vel excepturi blanditiis eos in animi culpa saepe sed
-      a natus laborum distinctio consectetur officia veniam adipisci, inventore atque. Nisi inventore quaerat
-      pariatur, quam, dolorem accusantium deserunt ullam veniam perspiciatis assumenda dolores odio perferendis
-      dolorum minima totam repellat dicta sequi recusandae. Eum ratione quod explicabo unde magnam non culpa voluptate
-      iure modi earum cum, officia doloremque harum amet dolorum hic deleniti porro quos libero sed beatae voluptates
-      soluta odio ipsa. Nesciunt corrupti modi perspiciatis temporibus nobis delectus magni alias porro repellat autem
-      enim illo corporis quia, doloribus quasi incidunt optio omnis vero. Tempore cumque porro beatae consequatur
-      atque id quia error necessitatibus? Optio expedita eaque illo consequatur culpa pariatur, quaerat excepturi
-      doloremque corrupti sapiente. Voluptatibus vel earum in sunt laudantium aliquam nulla quae qui numquam?
-      Inventore vero quisquam tempora praesentium laboriosam exercitationem debitis corrupti iste similique, quae
-      dolorem repudiandae iure eum ratione deserunt maiores aliquam quos, quis dolore minima nostrum adipisci odio!
-      Sequi quibusdam hic iusto aliquam! Amet earum, minima incidunt quos non cum magnam veniam! Aut minima laudantium
-      facere accusamus ex recusandae sit repudiandae itaque corrupti dolor ullam animi iure illo officiis dolores
-      totam ad, veniam modi libero enim nemo. Iste tempora sit numquam molestias laudantium exercitationem cupiditate
-      dignissimos tempore fugiat expedita autem esse consequatur, voluptatum praesentium pariatur quas impedit
-      reiciendis accusantium? Error quasi quisquam reiciendis est, nisi nulla. Rerum commodi mollitia dolore voluptate
-      saepe culpa, quibusdam in consequatur beatae magni atque temporibus suscipit. Magni corrupti, quod dolorum et
-      tempora accusamus reprehenderit voluptatum corporis veniam obcaecati laborum cum voluptas facere optio dicta
-      ipsam quibusdam vel voluptatem. Veritatis, possimus. Est odio placeat fuga. Consequuntur nam fugiat est impedit
-      magni id sequi, doloremque veniam dolorum ea? Porro ratione iure obcaecati, tempore optio nihil maiores
-      voluptatibus autem dicta saepe, suscipit dolorem ut temporibus. Fuga!
-    </p>
+<p>Physics is perhaps one of the most varied of all scientific disciplines, with a wide variety of topics that lie beneath the surface. One of the most prominent of topics (and perhaps interesting) is the theory of relativity.</p>
+
+<p>One of the most poignant of reasons as to why relativity is so special is the fact that the theory is developed only from two postulates.</p>
+
+<p>Einstein, the developer of Special Relativity, lists these postulates as follows.</p>
+
+<ol type="I">
+    <li>The laws of physics take the same form in all inertial frames of reference.</li>
+    <li>The speed of light in free space has the same value <em>c</em> in all inertial frames of reference.</li>
+</ol>
+
+<p>However, in order to first understand why Einstein came up with these two postulates, we must first understand the experimental background.</p>
+<h2 id="experimental-background">Experimental Background</h2><br>
+<p>Before the theory of relativity, an alternative hypothesis was upheld.</p>
+<p>
+    Subsquent to Maxwell postulating theoeretically and Hertz proving experimentally that light was indeed an electromagnetic wave, researchers went on to find how light propagated through space. The most prevalent of theories was that of a
+    luminiferous aether, a mysterious substance that permeated space (sounds familiar to a certain dark matter), that mediated in the transmission of light, or electromagnetic waves. However, there was no experimental backing to this idea,
+    and there was nothing but a glorified hunch that prompted theorists to believe in this.
+</p>
+<p>This paved the way for Michelson and Morley to develop an experimental set-up to demonstrate the existence of the aether.</p>
+<figure>
+    <img src="@/assets/images/Michelson_setup.png" id="fig:exp1" alt="Sketch of Michelson-Morley Experiment" style="width: 50%; height: 50%"/>
+    <figcaption aria-hidden="true"><h4> Sketch of Michelson-Morley Experiment</h4></figcaption>
+</figure>
+<br>
+<p>
+    The experiment took place on a table that was spun. A ray of light was shone from one side to another, and was reflected through the mirror. This was done to determine the speed of light in perpendicular directions, and detect if there
+    was any change, due to the relative speed to the aether wind, that was believed to affect the speed of light. This is similar to how wind can distort the propogation of sound, and how it is difficult to hear someone when it is very
+    windy.
+</p>
+<p>
+    However, despite the preconceived notion of an omnipresent aether, the experiment yielded a famous <em>null</em> result, showing conclusively that light speed in a particular medium is constant, and that there is no evidence that aether
+    permeated the environment. Thus the speed of light, within experimental error, was indeed independent of observer velocity, and constant throughout the universe.
+</p>
+<p>This was why Einstein posited the above postulate of the speed of light in a vacuum being independent (or rather invariant) with the observer.</p>
+<p>Now, with the experimental backing let us try to understand the implications of the speed of light being invariant with observer. Thus, let us analyze the different frames that one may percive the passage of light.</p>
+<p>
+    We now have two frames, the stationary frame, and frame perceived by an observer travelling at a given speed with respect to the stationary observer. Let the 3-dimensional position and time perceived by the stationary frame to be
+    <vue-latex :expression="'x, y, z, t'" />, and the non-stationary observer frame to be <vue-latex :expression="'x\', y\', z\', t\''" /> respectively. We further
+    assume the non-stationary observer is travelling in the <vue-latex :expression="'x'" />-direction.
+</p>
+<p>
+    Note that the difference of the distance travelled by an object and light during an infinitesimally small amount of time, <vue-latex :expression="'dt'" />, is invariant with the speed of the observer. Let the
+    difference be denoted by <vue-latex :expression="'ds'" />. We have -
+</p>
+<p>
+    <vue-latex :expression="'ds^2 = dx^2 + dy^2 + dz^2 - c^2 dt^2 = dx\'^2 + dy\'^2 + dz\'^2 - c^2 dt\'^2'" display-mode/>
+</p>
+<p>This is the famous four-displacement value, that is the backbone of Special Relativity.</p> 
+
+<h2 id="derivation-of-lorentz-transformations">Derivation of Lorentz Transformations</h2><br>
+
+<p>Certainly one of the most ubiquitous tools in Special Relativity is that of the Lorentz Transformations, which essentially dictate the perceived changes in space-time as an once switches observer frames.</p>
+<p>We shall now derive this transformation using one of many methods, that is using hyperbolic functions.</p>
+<p>
+    We understand that the observer is moving in the x-direction, so we can remove the <vue-latex :expression="'y \\:\\&\\: z'" /> terms from the four-displacement equation, as there will be
+    no transformations in these dimensions.
+</p>
+<p>
+    <vue-latex :expression="'(ct)^2 - x^2 = (ct\')^2 - x\'^2'" display-mode/>
+</p>
+<p>
+    The general solution of such a hyperbolic equation can be obtained by plugging in hyperbolic functions into <vue-latex :expression="'x \\:\\&\\: ct'" /> variables.
+</p>
+<p>
+    <vue-latex :expression="'x = x\' \\cosh \\Phi + ct\' \\sinh \\Phi, \\quad ct = x\' \\sinh \\Phi + ct\' \\cosh \\Phi'" display-mode/>
+</p>
+<p>
+    Now, we take <vue-latex :expression="'x\' = 0'" /> as a special case and work from there.
+</p>
+<p>
+    <vue-latex :expression="'x = ct\' \\sinh \\Phi, \\quad ct = ct\' \\cosh \\Phi '" display-mode/>
+</p>
+<p>Now we divide the left equation by the right equation.</p>
+
+<p>
+<vue-latex :expression="'\\frac{x}{ct} = \\tanh \\Phi = \\frac{v}{c} = \\beta \\ \\text{where } \\ \\beta := \\frac{v}{c}'" display-mode/>
+</p>
+<p>
+    Now, using hyperbolic identities,
+</p>
+<p>
+<vue-latex :expression="'1 = \\tanh ^2 \\Phi + \\frac{1}{\\cosh ^2 \\Phi}'" display-mode/>
+<vue-latex :expression="'\\implies \\cosh \\Phi = \\frac{1}{\\sqrt{1 - \\tanh ^2 \\Phi}}  = \\frac{1}{\\sqrt{1 - \\frac{v^2}{c^2}}}'" display-mode/>
+<vue-latex :expression="'\\implies \\sinh \\Phi = \\sqrt{\\cosh ^2 \\Phi - 1} = \\frac{\\frac{v}{c}}{\\sqrt{1 - \\frac{v^2}{c^2}}}'" display-mode/>
+</p>
+<p>Now we substitute everything back into the initial solution,</p>
+<p>
+<vue-latex :expression="'x = \\frac{x\' + vt\'}{\\sqrt{1 - \\frac{v^2}{c^2}}}, \\quad t = \\frac{t\' + \\tfrac{v x}{c^2}}{\\sqrt{1 - \\frac{v^2}{c^2}}}'" display-mode/>
+</p>
+<p>
+    We find the term <vue-latex :expression="'\\left(1 - \\frac{v^2}{c^2}\\right)^{-0.5}'"/> being repeated quite often, so let us substitute with the constant <vue-latex :expression="'\\gamma_v'"/>.
+</p>
+<p>
+<vue-latex :expression="'x = \\gamma_v (x\' + vt\'), \\quad t = \\gamma_v \\left(t\' + \\tfrac{v x}{c^2}\\right)'" display-mode/>
+</p>
+<p>We have thus proved the Lorentz Transformations. QED</p>
+<h2 id="physical-signifance-of-the-lorentz-transformations">Physical Signifance of the Lorentz Transformations</h2><br>
+<p>
+    We have completed the math section of our article (yay!), but we still need to intimately understand what are we talking about. After all, this is Physics not pure Maths. As a wise man (certainly not a teacher in our school) once said -
+    Math is Physics without meaning, and Chemistry is Physics without thinking. And Biology, well let’s not get into that.
+</p>
+<p>
+    With just the Lorentz Transformations and Four-Displacement equation alone, one can conjure a plethora of visulations and paradoxes that will be quite interesting, and the other fellows will go through these in the subsequent articles.
+</p>
+<p>However, there are a few key takeaways from these transformations that I wish to briefly touch upon.</p>
+<p>Firstly, is the fact that there is no commonly agreed upon length between observers. What do I mean by this.</p>
+<p>
+    Well, we have shown the aforementioned Lorentz transformations yields the following equation (take <vue-latex :expression="'t = 0'"/>).
+</p>
+<p>
+  <vue-latex :expression="'x = \\gamma_v x\''" display-mode/>
+</p>
+<p>
+    We know that <vue-latex :expression="'\\gamma_v > 1'"/> , if <vue-latex :expression="'v \\ne 0'"/>. So now suddenly we have any length or distance unusually ‘contracting’ when one attains a non-zero speed along the axis of that distance.
+</p>
+<p>
+    Conversely, we have from the other equation (take <vue-latex :expression="'x = 0'"/>) -
+</p>
+<p>
+  <vue-latex :expression="'t = \\gamma_v t\''" display-mode/>
+</p>
+<p>Huh! Not just the length is contracting, but the passage of time also slows down.</p>
+<p>This seems very counterintuitive, but fret not! These two are actually very real phenomena that we experience daily. However, we are travelling at a way too low speed to even perceive or notice these changes.</p>
+<p>
+    Usually physicists set an arbitrary threshold of ~<vue-latex :expression="'10^6 \\: m/s'"/> when we should take these changes into account. For the uninitiated, this is in the order of megametres per second! We can only hope to
+    dream one day of travelling such a speed!
+</p>
+<h2 id="conclusion">Conclusion</h2><br>
+<p>In short, we have concisely discussed the quirky phenomena of Special Relativity, and how it may result in a very deep-seated change in our understanding our physical environment.</p>
+<p>I hope you have enjoyed reading this article.</p>
+
+<p align="right"> (1032 words) </p>
+
     <NextChapter next-chapter="applications" />
   </div>
 </template>
@@ -110,5 +157,12 @@ p {
   width: 50vw;
   font-size: 18px;
   margin-bottom: 24px;
+}
+
+ol {
+  width: 50vw;
+  font-size: 18px;
+  margin-bottom: 24px;
+  list-style-position: inside;
 }
 </style>
