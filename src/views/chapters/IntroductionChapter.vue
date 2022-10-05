@@ -1,8 +1,8 @@
 <template>
   <div class='chapter-container'>
     <h1>Introduction</h1>
-    <h1 style="font-size: 32px;">Mayukh Das</h1>
-<p>Physics is perhaps one of the most varied of all scientific disciplines, with a wide variety of topics that lie beneath the surface. One of the most prominent of topics (and perhaps interesting) is the theory of relativity.</p>
+    <h1 style="font-size: 32px;font-weight: 200"><em>Mayukh Das</em></h1> <br>
+<p><strong>Physics</strong> is perhaps one of the most varied of all scientific disciplines, with a wide variety of topics that lie beneath the surface. One of the most prominent of topics (and perhaps interesting) is the theory of relativity.</p>
 
 <p>One of the most poignant of reasons as to why relativity is so special is the fact that the theory is developed only from two postulates.</p>
 
@@ -14,7 +14,7 @@
 </ol>
 
 <p>However, in order to first understand why Einstein came up with these two postulates, we must first understand the experimental background.</p>
-<h2 id="experimental-background">Experimental Background</h2><br>
+<h2 id="experimental-background">Experimental Background</h2>
 <p>Before the theory of relativity, an alternative hypothesis was upheld.</p>
 <p>
     Subsquent to Maxwell postulating theoeretically and Hertz proving experimentally that light was indeed an electromagnetic wave, researchers went on to find how light propagated through space. The most prevalent of theories was that of a
@@ -23,8 +23,8 @@
 </p>
 <p>This paved the way for Michelson and Morley to develop an experimental set-up to demonstrate the existence of the aether.</p>
 <figure>
-    <img src="@/assets/images/Michelson_setup.png" id="fig:exp1" alt="Sketch of Michelson-Morley Experiment" style="width: 50%; height: 50%"/>
-    <figcaption aria-hidden="true"><h4> Sketch of Michelson-Morley Experiment</h4></figcaption>
+    <img src="@/assets/images/Michelson_setup.png" id="fig:exp1" alt="Sketch of the Michelson-Morley Experiment" style="width: 50%; height: 50%"/>
+    <figcaption aria-hidden="true"><h4> Sketch of the Michelson-Morley Experiment</h4></figcaption>
 </figure>
 <br>
 <p>
@@ -34,7 +34,7 @@
 </p>
 <p>
     However, despite the preconceived notion of an omnipresent aether, the experiment yielded a famous <em>null</em> result, showing conclusively that light speed in a particular medium is constant, and that there is no evidence that aether
-    permeated the environment. Thus the speed of light, within experimental error, was indeed independent of observer velocity, and constant throughout the universe.
+    permeated the environment. Thus the speed of light in free space, within experimental error, was indeed independent of observer velocity, and constant throughout the universe.
 </p>
 <p>This was why Einstein posited the above postulate of the speed of light in a vacuum being independent (or rather invariant) with the observer.</p>
 <p>Now, with the experimental backing let us try to understand the implications of the speed of light being invariant with observer. Thus, let us analyze the different frames that one may percive the passage of light.</p>
@@ -45,14 +45,14 @@
 </p>
 <p>
     Note that the difference of the distance travelled by an object and light during an infinitesimally small amount of time, <vue-latex :expression="'dt'" />, is invariant with the speed of the observer. Let the
-    difference be denoted by <vue-latex :expression="'ds'" />. We have -
+    difference be denoted by <vue-latex :expression="'ds'" />. 
 </p>
 <p>
     <vue-latex :expression="'ds^2 = dx^2 + dy^2 + dz^2 - c^2 dt^2 = dx\'^2 + dy\'^2 + dz\'^2 - c^2 dt\'^2'" display-mode/>
 </p>
-<p>This is the famous four-displacement value, that is the backbone of Special Relativity.</p> 
+<p>This is the famous four-displacement equation, that is the backbone of Special Relativity.</p> 
 
-<h2 id="derivation-of-lorentz-transformations">Derivation of Lorentz Transformations</h2><br>
+<h2 id="derivation-of-lorentz-transformations">Derivation of Lorentz Transformations</h2>
 
 <p>Certainly one of the most ubiquitous tools in Special Relativity is that of the Lorentz Transformations, which essentially dictate the perceived changes in space-time as an once switches observer frames.</p>
 <p>We shall now derive this transformation using one of many methods, that is using hyperbolic functions.</p>
@@ -99,13 +99,13 @@
 <vue-latex :expression="'x = \\gamma_v (x\' + vt\'), \\quad t = \\gamma_v \\left(t\' + \\tfrac{v x\'}{c^2}\\right)'" display-mode/>
 </p>
 <p>We have thus proved the Lorentz Transformations. QED</p>
-<h2 id="physical-signifance-of-the-lorentz-transformations">Physical Signifance of the Lorentz Transformations</h2><br>
+<h2 id="physical-signifance-of-the-lorentz-transformations">Physical Signifance of the Lorentz Transformations</h2>
 <p>
     We have completed the math section of our article (yay!), but we still need to intimately understand what are we talking about. After all, this is Physics not pure Maths. As a wise man (certainly not a teacher in our school) once said -
     Math is Physics without meaning, and Chemistry is Physics without thinking. And Biology, well let’s not get into that.
 </p>
 <p>
-    With just the Lorentz Transformations and Four-Displacement equation alone, one can conjure a plethora of visulations and paradoxes that will be quite interesting, and the other fellows will go through these in the subsequent articles.
+    With just the Lorentz Transformations and Four-Displacement equation alone, one can conjure up a plethora of visulations and paradoxes that will be quite interesting, and the other fellows will go through these in the subsequent articles.
 </p>
 <p>However, there are a few key takeaways from these transformations that I wish to briefly touch upon.</p>
 <p>Firstly, is the fact that there is no commonly agreed upon length between observers. What do I mean by this.</p>
@@ -130,7 +130,7 @@
     Usually physicists set an arbitrary threshold of ~<vue-latex :expression="'10^6 \\: m/s'"/> when we should take these changes into account. For the uninitiated, this is in the order of megametres per second! We can only hope to
     dream one day of travelling such a speed!
 </p>
-<h2 id="conclusion">Conclusion</h2><br>
+<h2 id="conclusion">Conclusion</h2>
 <p>In short, we have concisely discussed the quirky phenomena of Special Relativity, and how it may result in a very deep-seated change in our understanding our physical environment.</p>
 <p>I hope you have enjoyed reading this article.</p>
 
@@ -151,7 +151,14 @@ h1 {
   font-size: 64px;
   font-weight: 400;
   color: #2D3D27;
-  margin-bottom: 10px;
+  margin-bottom: -5px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #2B3B25;
+  margin-bottom: 24px;
 }
 
 p {
@@ -160,7 +167,7 @@ p {
   margin-bottom: 24px;
 }
 
-h1 + p:first-letter {
+p strong {
   font-family: Porto;
   font-size: 32px;
   font-weight: 400;

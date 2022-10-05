@@ -1,7 +1,7 @@
 <template>
   <div class='chapter-container'>
     <h1>Paradoxes</h1>
-    <h1 style="font-size: 32px;">Lee Jia Jie</h1>
+    <h1 style="font-size: 32px; font-weight: 200"><em>Lee Jia Jie</em></h1><br>
     <p>Turpis mi consectetur a nunc lacus pellentesque aliquet. Et feugiat amet auctor amet ac. Mi integer duis risus
       ut nunc nunc id fringilla. Vitae elit lacus, faucibus egestas venenatis. Est vitae ipsum eget cursus nulla
       sagittis. Auctor at risus lectus senectus risus enim. Lectus adipiscing nibh eros, dapibus et leo enim massa.
@@ -106,7 +106,14 @@ h1 {
   font-size: 64px;
   font-weight: 400;
   color: #2D3D27;
-  margin-bottom: 10px;
+  margin-bottom: -5px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #2B3B25;
+  margin-bottom: 24px;
 }
 
 p {
@@ -115,7 +122,7 @@ p {
   margin-bottom: 24px;
 }
 
-h1 + p:first-letter {
+p strong {
   font-family: Porto;
   font-size: 32px;
   font-weight: 400;
