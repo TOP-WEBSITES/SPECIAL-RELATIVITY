@@ -1,6 +1,6 @@
 <template>
   <div class='container'>
-    <MenuButton />
+    <!-- <MenuButton /> -->
     <div class='column'>
       <h1>Theory of</h1>
       <h1 class='bigger'>Relativity</h1>
@@ -12,7 +12,7 @@
 </template>
 
 <script lang='ts' setup>
-import MenuButton from '@/components/MenuButton.vue';
+// import MenuButton from '@/components/MenuButton.vue';
 import StartReadingButton from '@/components/StartReadingButton.vue';
 
 </script>

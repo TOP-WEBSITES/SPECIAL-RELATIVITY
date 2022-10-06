@@ -6,6 +6,8 @@
 </script>
 
 <style>
+@import "../node_modules/katex/dist/katex.min.css";
+
 @font-face {
   font-family: Porto;
   src: url(assets/fonts/Porto-Regular.otf);
@@ -72,7 +74,23 @@
 .chapter-container {
   padding-top: 170px;
   padding-right: 100px;
+  width: 60vw;
   height: 100vh;
   overflow-y: scroll;
+  position: relative;
+}
+
+.chapter-container img {
+  width: 50vw;
+  height: auto;
+}
+
+.chapter-container h3 {
+  margin-bottom: 12px;
+}
+
+.chapter-container h2,
+.chapter-container h3 {
+  color: #2D3D27;
 }
 </style>
