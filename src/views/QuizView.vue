@@ -2,10 +2,10 @@
   <div class='quiz-container'>
     <NavBar />
     <div class="divider"></div>
-    <div v-if="qn < 5" class="main">
+    <div v-if="qn < 6" class="main">
       <h1>Quiz</h1>
       <div class='qnum-container'>
-        <h3>Question {{qn + 1}} of 5</h3>
+        <h3>Question {{qn + 1}} of 6</h3>
         <div class='bar'>
           <div class="progress" :style="{width: `${24 * qn + 24}px`}"></div>
         </div>
@@ -28,17 +28,17 @@
         </div>
         <div class="spacer"></div>
         <div class="next-btn" :class="{'equal-padding': !checkAnswer}" @click="checkAnswerOrNextQn">
-          {{ checkAnswer ? (qn == 4 ? 'View results' : 'Next') : 'Check answer' }}
+          {{ checkAnswer ? (qn == 5 ? 'View results' : 'Next') : 'Check answer' }}
           <div v-if="checkAnswer" class="material-symbols-outlined">arrow_forward</div>
         </div>
       </div>
     </div>
     <div v-else class='main results-container'>
       <h1>Results</h1>
-      <h3>{{numCorrect}} / 5</h3>
+      <h3>{{numCorrect}} / 6</h3>
       <p>{{resultsMessages[numCorrect]}}</p>
     </div>
-    <div v-if="qn >= 5" class="again-btn" @click="router.push('/')">
+    <div v-if="qn >= 6" class="again-btn" @click="router.push('/')">
       <div class="material-symbols-outlined">restart_alt</div>
     </div>
   </div>
@@ -60,22 +60,29 @@ const numCorrect = ref(0);
 
 const questions = [
   {
-    text: 'Semper aenean dignissim semper donec id rhoncus cras purus, ornare. Id felis turpis quis neque nisl, semper mauris adipiscing?',
-    options: ['Ut orci eros', 'Aliquam ut hendrerit', 'Feugiat sed tellus', 'Erat laoreet sagittis'],
-    answer: 2,
+    text: 'What led to Einstein to reject the theory of Luminiferous Aether?',
+    options: ['He believed that it was incredulous that some substance would permeate the environment undetected', 'He felt that light was too fast to have to be mediated by some substance', 'The concept of a massless photon meant that its passage did not require a medium', 'The null result of the Michelson-Morley Experiment gave proof that the Aether did not exist'],
+    answer: 3,
   },
   {
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?',
-    options: ['Ut orci eros', 'Aliquam ut hendrerit', 'Feugiat sed tellus', 'Erat laoreet sagittis'],
-    answer: 2,
+    text: 'A cube with sides of length 1m is moving with one of its sides parallel to the x-axis of an inertial frame S with velocity 0.5c. ' +
+          'An observer is moving along the x-axis of the inertial frame with velocity 0.3c. ' + 
+          'Find the volume (to 4 d.p.) of the cube as measured by the observer',
+    options: ['1.0000 m3', '1.0155 m3', '1.0352 m3', '1.0235 m3'],
+    answer: 1,
   },
   {
-    text: 'What is the answer to life, the universe, and everything?',
-    options: ['Ut orci eros', 'Aliquam ut hendrerit', 'Feugiat sed tellus', 'Erat laoreet sagittis'],
-    answer: 2,
+    text: 'What is the main motivation of using lorentz\' transformation over Galilean transformation? (Most accurate answer)',
+    options: ['Failure of Galilean transformation to make the speed of light constant upon translation to different inertial frames.', 'Breakdown of galilean transformation at low speeds', 'Galilean transformation fails to predict for massless particles', 'Galilean transformation fails to account for uncertainty (Heisenburg)'],
+    answer: 0,
   },
   {
-    text: 'Why does the sun rise in the east?',
+    text: 'What is the main point of spacetime diagram having units of ct against x (e.g. Light second against second)',
+    options: ['Objects having the speed of light will have a 45 degrees angle with respect to the x axis', 'To ensure that the scale will be easy for humans to understand and comprehend', 'So as to ensure Einstein\'s second postulate is observed (speed of light remains constant)', 'To ensure Heisenberg uncertainty principle is accounted for'],
+    answer: 0,
+  },
+  {
+    text: '',
     options: ['Ut orci eros', 'Aliquam ut hendrerit', 'Feugiat sed tellus', 'Erat laoreet sagittis'],
     answer: 2,
   },
@@ -92,6 +99,7 @@ const resultsMessages = [
   'Read the articles another time and try again!',
   'Not bad, but you can do better!',
   'Good score!',
+  'Good score! One more to a perfect one!',
   'Excellent work! You have achieved a perfect score!',
 ];
 
