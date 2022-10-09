@@ -85,12 +85,27 @@
   height: auto;
 }
 
+.chapter-container h1 {
+  font-family: Porto;
+  font-size: 64px;
+  font-weight: 400;
+  color: #2D3D27;
+}
+
+.chapter-container h2 {
+  color: #2D3D27;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
 .chapter-container h3 {
+  color: #2D3D27;
   margin-bottom: 12px;
 }
 
-.chapter-container h2,
-.chapter-container h3 {
-  color: #2D3D27;
+.chapter-container p {
+  font-size: 18px;
+  margin-bottom: 24px;
 }
 </style>

@@ -90,7 +90,7 @@
       voluptatibus autem dicta saepe, suscipit dolorem ut temporibus. Fuga!
     </p>
 
-<p align="right"> (XXX words) </p>
+    <p align="right"> (XXX words) </p>
     <NextChapter prev-chapter="applications" next-chapter="quiz" />
   </div>
 </template>
@@ -101,27 +101,6 @@ import NextChapter from '@/components/NextChapter.vue';
 </script>
 
 <style lang='scss' scoped>
-h1 {
-  font-family: Porto;
-  font-size: 64px;
-  font-weight: 400;
-  color: #2D3D27;
-  margin-bottom: -5px;
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: 800;
-  color: #2B3B25;
-  margin-bottom: 24px;
-}
-
-p {
-  width: 50vw;
-  font-size: 18px;
-  margin-bottom: 24px;
-}
-
 p strong {
   font-family: Porto;
   font-size: 32px;
