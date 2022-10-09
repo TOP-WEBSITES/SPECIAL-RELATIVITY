@@ -3,7 +3,7 @@
     <h1>Paradoxes</h1>
     <h1 style="font-size: 32px; font-weight: 200"><em>Lee Jia Jie</em></h1><br>
 
-<p>The counterintuitive and convoluted nature of the theory of special
+<p><strong>The</strong> counterintuitive and convoluted nature of the theory of special
 relativity has given rise to several famous paradoxes. Many of these
 have been logically resolved and therefore might technically not be
 considered true paradoxes. However, they are still very useful thought
@@ -99,7 +99,7 @@ light and observes a stationary cube.</p>
 elaborated above, there would be a contraction of the cube along the
 axis which one is travelling.</p>
 
-<a title="Stigmatella aurantiaca, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Animated_Terrell_Rotation_-_Cube.gif"><img width="512" alt="Animated Terrell Rotation - Cube" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Animated_Terrell_Rotation_-_Cube.gif"></a>
+<img width="256" alt="Animated Terrell Rotation - Cube" src="@/assets/images/Animated_Terrell_Rotation_-_Cube.gif">
 
 <p>However, due to differences in the perception of the back of cubes
 and the front of the cubes, there is indeed an apparent rotation that
@@ -125,7 +125,7 @@ appear to have rotated horizontally.</p>
 the laws of physics must be identical in all inertial frames, hence this
 Terrell rotation must be a purely visual effect – and has no real world
 implications on the state of the cube itself.</p>
-<p>This is the famous rotation that but Terell and Penrose had both
+<p>This is the famous rotation that Terell and Penrose had both
 independently proposed in 1959. An interesting fact of this is that it
 taken a long time for physicists to realise that such an effect indeed
 took place, even 45 years Einstein had proposed Special Relativity.</p>
