@@ -22,4 +22,4 @@ pnpm-debug.log*
 
 package_lock.json
 yarn.lock
-dist
+dist/
