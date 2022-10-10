@@ -99,7 +99,7 @@
       one may notice whilst observing the cube.</p>
     <p>Let us try to explain this phenomenon. The following image is of the
       motion of the observer and of the cube from above.</p>
-    <p><img src="@/assets/images/216307f38f3200c68c404dfd29388528d809749b.gif"
+    <p><img src="@/assets/images/terrel1.png"
         style="width:3.11458in;height:2.60417in" /></p>
     <p>Now, one would expect that the light from the back of the cube, in
       this case D and C would be emitted first, than the light from the front
