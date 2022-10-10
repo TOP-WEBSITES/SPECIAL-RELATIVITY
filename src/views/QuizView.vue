@@ -2,12 +2,12 @@
   <div class='quiz-container'>
     <NavBar />
     <div class="divider"></div>
-    <div v-if="qn < 6" class="main">
+    <div v-if="qn < questions.length" class="main">
       <h1>Quiz</h1>
       <div class='qnum-container'>
         <h3>Question {{qn + 1}} of 6</h3>
         <div class='bar'>
-          <div class="progress" :style="{width: `${24 * qn + 24}px`}"></div>
+          <div class="progress" :style="{width: `${120 / questions.length * (qn + 1)}px`}"></div>
         </div>
       </div>
       <p class="question-text">
@@ -28,17 +28,17 @@
         </div>
         <div class="spacer"></div>
         <div class="next-btn" :class="{'equal-padding': !checkAnswer}" @click="checkAnswerOrNextQn">
-          {{ checkAnswer ? (qn == 5 ? 'View results' : 'Next') : 'Check answer' }}
+          {{ checkAnswer ? (qn == questions.length - 1 ? 'View results' : 'Next') : 'Check answer' }}
           <div v-if="checkAnswer" class="material-symbols-outlined">arrow_forward</div>
         </div>
       </div>
     </div>
     <div v-else class='main results-container'>
       <h1>Results</h1>
-      <h3>{{numCorrect}} / 6</h3>
+      <h3>{{numCorrect}} / {{questions.length}}</h3>
       <p>{{resultsMessages[numCorrect]}}</p>
     </div>
-    <div v-if="qn >= 6" class="again-btn" @click="router.push('/')">
+    <div v-if="qn >= questions.length" class="again-btn" @click="router.push('/')">
       <div class="material-symbols-outlined">restart_alt</div>
     </div>
   </div>
@@ -54,20 +54,20 @@ import QuestionOption from '../components/QuestionOption.vue';
 const router = useRouter();
 
 const qn = ref(0);
-const selectedOption = ref(null);
+const selectedOption = ref<number | null>(null);
 const checkAnswer = ref(false);
 const numCorrect = ref(0);
 
 const questions = [
   {
     text: 'What led to Einstein to reject the theory of Luminiferous Aether?',
-    options: ['He believed that it was incredulous that some substance would permeate the environment undetected', 'He felt that light was too fast to have to be mediated by some substance', 'The concept of a massless photon meant that its passage did not require a medium', 'The null result of the Michelson-Morley Experiment gave proof that the Aether did not exist'],
+    options: ['He didn\'t think some substance could permeate the environment undetected', 'He felt that light was too fast to have to be mediated by some substance', 'The concept of a massless photon meant that its passage did not require a medium', 'The null result of the Michelson-Morley Experiment'],
     answer: 3,
   },
   {
     text: 'A cube with sides of length 1m is moving with one of its sides parallel to the x-axis of an inertial frame S with velocity 0.5c. ' +
-          'An observer is moving along the x-axis of the inertial frame with velocity 0.3c. ' + 
-          'Find the volume (to 4 d.p.) of the cube as measured by the observer',
+      'An observer is moving along the x-axis of the inertial frame with velocity 0.3c. ' +
+      'Find the volume (to 4 d.p.) of the cube as measured by the observer',
     options: ['1.0000 m3', '1.0155 m3', '1.0352 m3', '1.0235 m3'],
     answer: 1,
   },
@@ -82,14 +82,24 @@ const questions = [
     answer: 0,
   },
   {
-    text: '',
-    options: ['Ut orci eros', 'Aliquam ut hendrerit', 'Feugiat sed tellus', 'Erat laoreet sagittis'],
-    answer: 2,
+    text: 'How is the twin paradox resolved?',
+    options: [
+      'The travelling twin has two different reference frames while the other twin remains at earth\'s reference frame throughout',
+      'One twin is experiencing acceleration while the other is not',
+      'It remains an unsolved problem of physics',
+      'Time moves slower for the travelling twin',
+    ],
+    answer: 0,
   },
   {
-    text: 'Which of the following is not a real programming language?',
-    options: ['Ut orci eros', 'Aliquam ut hendrerit', 'Feugiat sed tellus', 'Erat laoreet sagittis'],
-    answer: 2,
+    text: 'How is the barn pole paradox resolved?',
+    options: [
+      'The length of the pole is not affected by the presence of the barn',
+      'From the barn\'s reference frame, the pole always fit, while from the reference frame of the pole, both its ends were never in the barn at the same time.',
+      'From the barn\'s reference frame, the back end of the pole was inside while the front end was not, while from the reference frame of the pole, it was fully it the barn.',
+      'From both reference frames, the pole could never fit inside the barn',
+    ],
+    answer: 1,
   },
 ];
 

@@ -1,7 +1,7 @@
 <template>
   <div class='chapter-container'>
     <h1>Introduction</h1>
-    <h1 style="font-size: 32px;font-weight: 200"><em>Mayukh Das</em></h1> <br>
+    <h1 class="subtitle">Mayukh Das</h1> <br>
     <p><strong>Physics</strong> is perhaps one of the most varied of all scientific disciplines, with a wide variety of
       topics that lie beneath the surface. One of the most prominent of topics (and perhaps interesting) is the theory
       of relativity.</p>
@@ -149,7 +149,7 @@
     </p>
     <p>
       With just the Lorentz Transformations and Four-Displacement equation alone, one can conjure up a plethora of
-      visulations and paradoxes that will be quite interesting, and the other fellows will go through these in the
+      visualisations and paradoxes that will be quite interesting, and the other fellows will go through these in the
       subsequent articles.
     </p>
     <p>However, there are a few key takeaways from these transformations that I wish to briefly touch upon.</p>
@@ -200,13 +200,6 @@ import NextChapter from '@/components/NextChapter.vue';
 </script>
 
 <style lang='scss' scoped>
-p strong {
-  font-family: Porto;
-  font-size: 32px;
-  font-weight: 400;
-  color: #2D3D27;
-}
-
 ol {
   font-size: 18px;
   margin-bottom: 24px;

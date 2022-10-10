@@ -1,7 +1,7 @@
 <template>
   <div class='chapter-container'>
     <h1>Paradoxes</h1>
-    <h1 style="font-size: 32px; font-weight: 200"><em>Lee Jia Jie</em></h1><br>
+    <h1 class="subtitle">Lee Jia Jie</h1><br>
 
     <p><strong>The</strong> counterintuitive and convoluted nature of the theory of special
       relativity has given rise to several famous paradoxes. Many of these
@@ -131,13 +131,6 @@ import NextChapter from '@/components/NextChapter.vue';
 </script>
 
 <style lang='scss' scoped>
-p strong {
-  font-family: Porto;
-  font-size: 32px;
-  font-weight: 400;
-  color: #2D3D27;
-}
-
 ol {
   width: 50vw;
   font-size: 18px;

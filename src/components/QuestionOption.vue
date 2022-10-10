@@ -5,8 +5,7 @@
         check_small
       </div>
     </div>
-    {{props.text}}
-    <div class="spacer"></div>
+    <div class="text">{{props.text}}</div>
     <span v-if="props.showIsCorrectAnswer" class='correct-answer-message'>Correct answer</span>
   </div>
 </template>
@@ -24,12 +23,13 @@ const props = defineProps({
 <style lang='scss' scoped>
 .option-container {
   width: calc(100% + 28px);
-  height: 54px;
   border-radius: 27px;
   display: flex;
   align-items: center;
   padding-left: 14px;
   padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 13px;
   font-size: 18px;
   cursor: pointer;
   transform: translateX(-14px);
@@ -50,6 +50,7 @@ const props = defineProps({
 
   .checkbox {
     width: 28px;
+    // min-width: 28px;
     height: 28px;
     border-radius: 14px;
     border: 2px solid black;
@@ -66,6 +67,11 @@ const props = defineProps({
     .material-symbols-outlined {
       color: #DCC095;
     }
+  }
+
+  .text {
+    flex: 1;
+    margin-right: 8px;
   }
 
   .correct-answer-message {

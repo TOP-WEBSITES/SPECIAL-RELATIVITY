@@ -92,6 +92,14 @@
   color: #2D3D27;
 }
 
+.chapter-container h1.subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
 .chapter-container h2 {
   color: #2D3D27;
   font-size: 24px;
@@ -107,5 +115,19 @@
 .chapter-container p {
   font-size: 18px;
   margin-bottom: 24px;
+}
+
+.chapter-container p strong {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.chapter-container p strong::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #2D3D27;
+  margin-right: 8px;
+  content: '';
 }
 </style>

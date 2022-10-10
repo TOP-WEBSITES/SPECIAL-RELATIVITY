@@ -1,7 +1,7 @@
 <template>
   <div class='chapter-container'>
     <h1>Applications</h1>
-    <h1 style="font-size: 32px; font-weight: 200"><em>Dave Tan</em></h1><br>
+    <h1 class="subtitle">Dave Tan</h1><br>
 
     <p><strong>IN 1905,</strong> Albert Einstein proposed the following postulate, setting up the cornerstone for
       special relativity:<br />
@@ -267,13 +267,6 @@ import NextChapter from '@/components/NextChapter.vue';
 </script>
 
 <style lang='scss' scoped>
-p strong {
-  font-family: Porto;
-  font-size: 32px;
-  font-weight: 400;
-  color: #2D3D27;
-}
-
 ul {
   font-size: 18px;
   margin-bottom: 24px;
