@@ -65,11 +65,11 @@ const questions = [
     answer: 3,
   },
   {
-    text: 'A cube with sides of length 1m is moving with one of its sides parallel to the x-axis of an inertial frame S with velocity 0.5c. ' +
-      'An observer is moving along the x-axis of the inertial frame with velocity 0.3c. ' +
+    text: 'A cube with sides of length 1m is moving with one of its sides parallel to the x-axis of an inertial frame S with velocity 0.5c (with respect to the inertial frame). ' +
+      'An observer is moving along the x-axis of this inertial frame with velocity 0.3c (with respect to the inertial frame).' +
       'Find the volume (to 4 d.p.) of the cube as measured by the observer',
-    options: ['1.0000 m3', '1.0155 m3', '1.0352 m3', '1.0235 m3'],
-    answer: 1,
+    options: ['1.0000 m3', '1.0155 m3', '0.9848 m3', '0.9539 m3'],
+    answer: 2,
   },
   {
     text: 'What is the main motivation of using lorentz\' transformation over Galilean transformation? (Most accurate answer)',
