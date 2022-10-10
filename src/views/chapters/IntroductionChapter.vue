@@ -32,9 +32,9 @@
     <p>This paved the way for Michelson and Morley to develop an experimental set-up to demonstrate the existence of the
       aether.</p>
     <figure>
-      <img src="@/assets/images/Michelson_setup.png" id="fig:exp1" alt="Sketch of the Michelson-Morley Experiment" />
+      <img src="@/assets/images/Michelson_setup.png" id="fig:exp1" alt="Sketch of the Michelson-Morley Experiment" width="500" height="328"  />
       <figcaption aria-hidden="true">
-        <h4> Sketch of the Michelson-Morley Experiment</h4>
+        <h3> Sketch of the Michelson-Morley Experiment</h3>
       </figcaption>
     </figure>
     <br>
@@ -47,9 +47,20 @@
       very
       windy.
     </p>
+    <figure>
+      <img src="@/assets/images/michelson.png" id="fig:exp2" alt="Diagram of the Michelson-Morley Experiment" />
+      <figcaption aria-hidden="true">
+        <h3> Diagram of the Michelson-Morley Experiment</h3>
+      </figcaption>
+    </figure>
+    <br>
     <p>
-      However, despite the preconceived notion of an omnipresent aether, the experiment yielded a famous <em>null</em>
-      result, showing conclusively that light speed in a particular medium is constant, and that there is no evidence
+    Above we have two beams being projected on the screen. According to the then-prevalant dragging theory of aether, there should be a deviation between the two beams observed on the screen. 
+    In fact, it was postulated by Michelson that a fringe shift of about 0.04 fringes would occur (this calculation is based on the rotation of the earth), however the greatest average deviation measured was only 0.018 fringes, which was within experimental error. 
+    </p>
+    <p>
+      Hence, the experiment yielded a famous <em>null</em>
+      result, showing conclusively (after further trials) that light speed in a particular medium is constant, and that there is no evidence
       that aether
       permeated the environment. Thus the speed of light in free space, within experimental error, was indeed
       independent of observer velocity, and constant throughout the universe.
@@ -172,14 +183,21 @@
     </p>
 
     <figure>
-      <img src="@/assets/images/Length_Contraction.png" id="fig:exp1" alt="The reciprcity of the Lorentz Transformations" />
+      <img src="@/assets/images/Length_Contraction.png" id="fig:exp3" alt="The reciprcity of the Lorentz Transformations" />
       <figcaption aria-hidden="true">
-        <h3 style="text-align: center">Length Contraction</h3>
+        <h3>Length Contraction</h3>
       </figcaption>
     </figure>
-
     <p>
-      Conversely, we have from the other equation (take
+    In the above diagram, we have a stationary frame which obseres the blocks D, E and F moving to the right.
+    Thus, by length contraction, these moving blocks would have appeared to have contracted. 
+    </p>
+    <p>
+    Conversely, in the moving frame S', the blocks D, E and F appear stationary, while the A, B and C blocks have a relative velocity to the left.
+    Thus, blocks A, B and C appear to have been contracted, according to the frame S'.
+    </p>
+    <p>
+      We have from the equation for Lorentz transformation for time (take
       <span v-katex="'x = 0'"></span>) -
     </p>
     <p>
@@ -215,5 +233,14 @@ ol {
   font-size: 18px;
   margin-bottom: 24px;
   list-style-position: inside;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+img {
+  text-align: center;
 }
 </style>

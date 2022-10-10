@@ -99,7 +99,7 @@
       one may notice whilst observing the cube.</p>
     <p>Let us try to explain this phenomenon. The following image is of the
       motion of the observer and of the cube from above.</p>
-    <p><img src="@/assets/images/terrel1.png"
+    <p><img src="@/assets/images/216307f38f3200c68c404dfd29388528d809749b.gif"
         style="width:3.11458in;height:2.60417in" /></p>
     <p>Now, one would expect that the light from the back of the cube, in
       this case D and C would be emitted first, than the light from the front
@@ -110,8 +110,9 @@
         style="width:3.20833in;height:2.86458in" /></p>
     <p>Thus, when applying relativity, the observer would have
       simultaneously seen the earlier image of the back side of the cube, D’,
-      and a later image of the front side of the cube A. This causes it to
-      appear to have rotated horizontally.</p>
+      and a later image of the front side of the cube A. </p>
+      <p> The back face of the cube, would then have appeared to have shifted against the direction that the observer is traveling in.
+      This causes it to appear to have rotated horizontally.</p>
     <p>We must remember that according to Einstein’s first postulate that
       the laws of physics must be identical in all inertial frames, hence this
       Terrell rotation must be a purely visual effect – and has no real world
