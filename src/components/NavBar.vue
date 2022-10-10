@@ -10,6 +10,9 @@
     <router-link :class="{active: route.query.chapter === 'paradoxes'}" to='/article?chapter=paradoxes'>
       Paradoxes
     </router-link>
+    <router-link :class="{active: route.query.chapter === 'video'}" to='/article?chapter=video'>
+      Video
+    </router-link>
     <router-link :class="{active: route.path === '/quiz'}" to='/quiz'>
       Quiz
     </router-link>

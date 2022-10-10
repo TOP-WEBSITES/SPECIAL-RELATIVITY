@@ -6,6 +6,7 @@
         <IntroductionChapter v-if="route.query.chapter === 'introduction'" />
         <ApplicationsChapter v-else-if="route.query.chapter === 'applications'" />
         <ParadoxesChapter v-else-if="route.query.chapter === 'paradoxes'" />
+        <VideoChapter v-else-if="route.query.chapter === 'video'" />
       </transition>
     </div>
     <div class="divider"></div>
@@ -17,6 +18,7 @@ import { useRoute } from 'vue-router';
 import IntroductionChapter from './chapters/IntroductionChapter.vue';
 import ApplicationsChapter from './chapters/ApplicationsChapter.vue';
 import ParadoxesChapter from './chapters/ParadoxesChapter.vue';
+import VideoChapter from './chapters/VideoChapter.vue';
 import NavBar from '@/components/NavBar.vue';
 
 const route = useRoute();

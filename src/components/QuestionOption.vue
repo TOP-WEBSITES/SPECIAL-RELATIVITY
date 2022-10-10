@@ -28,8 +28,8 @@ const props = defineProps({
   align-items: center;
   padding-left: 14px;
   padding-right: 20px;
-  padding-top: 15px;
-  padding-bottom: 13px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   font-size: 18px;
   cursor: pointer;
   transform: translateX(-14px);

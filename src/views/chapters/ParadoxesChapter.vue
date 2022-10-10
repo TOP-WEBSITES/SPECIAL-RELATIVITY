@@ -22,7 +22,10 @@
     <p><img src="@/assets/images/021e43e78a7d7b5b9f0d609d6b548e0c018b9693.png" style="width:5.96875in;height:3.82292in"
         alt="THE TWINS PARADOX | Cool Knowledge" /></p>
 
-    <p>Yes, in actuality, this is a known consequence of Special Relativity.
+    <p>This is an especially confounding conumdrum that requires difficult mental gymnastics to fully comprehend. The
+      answer will be explained more completely in the video.</p>
+
+    <p>However, this is essentially a known consequence of Special Relativity.
       Due to the differences in frames between the two twins, there has to be
       a difference in how fast time travels between the two twins, and if
       there is a significant difference in speed between the two observers,
@@ -121,7 +124,7 @@
       presumptions in certain contexts, as we may always find new and
       interesting phenomena just lurking beneath physical theories.</p>
     <p style="text-align: right;"> (1052 words) </p>
-    <NextChapter prev-chapter="applications" next-chapter="quiz" />
+    <NextChapter prev-chapter="applications" next-chapter="video" />
   </div>
 </template>
 
