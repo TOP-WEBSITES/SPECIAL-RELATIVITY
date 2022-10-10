@@ -168,6 +168,17 @@
       when one attains a non-zero speed along the axis of that distance.
     </p>
     <p>
+    This can be visualised using the following diagram. 
+    </p>
+
+    <figure>
+      <img src="@/assets/images/Length_Contraction.png" id="fig:exp1" alt="The reciprcity of the Lorentz Transformations" />
+      <figcaption aria-hidden="true">
+        <h3 style="text-align: center">Length Contraction</h3>
+      </figcaption>
+    </figure>
+
+    <p>
       Conversely, we have from the other equation (take
       <span v-katex="'x = 0'"></span>) -
     </p>
